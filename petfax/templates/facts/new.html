@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetFax</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}"
+</head>
+<body>
+    <h1>Submit your fun fax</h1>
+    <p>If you have some fun animal facts you'd like to share, please submit them! We may use them in the future.</p>
+    <form >
+        <label><h2>Name</h2></label>
+        <input type="text">
+        <label><h2>Fact</h2></label>
+        <input type="text">
+        <input type="submit">
+    </form>
+    <a href="/pets">Go Back</a>
+</body>
+</html>
